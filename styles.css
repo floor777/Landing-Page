@@ -1,0 +1,52 @@
+.header {
+    margin: 16px 0;
+
+}
+
+body {
+    margin: 0px;
+}
+
+.header-links {
+    font-size: 18px;
+    color: #E5E7EB;
+   
+    
+}
+
+.header-logo {
+    font-size: 24px;
+    color: #F9FAF8;
+    margin-top: 15px;
+}
+
+.top-header-elements {
+    background-color: #1F2937;
+    height: 500px;
+  
+    
+}
+
+ul {
+    list-style: none;
+    
+    
+   
+}
+
+li {
+    display: inline;
+    
+}
+
+
+.header, .footer {
+
+   
+}
+
+.top-header-elements {
+    display: flex;
+    justify-content: space-around;
+}
+
