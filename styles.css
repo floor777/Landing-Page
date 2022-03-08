@@ -3,7 +3,7 @@
     height: 530px;
     display: flex;
     flex-direction: column;
-    gap: 100px;
+    gap: 110px;
 
 }
 
@@ -14,7 +14,7 @@ body {
 }
 
 .header-links {
-    font-size: 16px;
+    font-size: 18px;
     color: #E5E7EB;
     margin-right: 7.5px;
     
@@ -29,13 +29,15 @@ body {
 .header-logo {
     font-size: 24px;
     color: #F9FAF8;
-    margin-top: 15px;
-    margin-left: 25px;
+    margin-top: 11px;
+    margin-left: 24px;
+    font-weight: 800;
 }
 
 .top-header-elements {
     display: flex;
     justify-content: space-around;
+    margin-top: 6px;
     
 }
 
@@ -43,8 +45,7 @@ body {
 .bottom-header-elements {
     display: flex;
     justify-content: space-around;
-    
-    
+    margin: 0px 200px;
    
 }
 
@@ -52,7 +53,7 @@ body {
     display: flex;
     flex-direction: column;
     width: 450px;
-    margin-left: 185px;
+    
     
 }
 
@@ -78,14 +79,15 @@ body {
 }
 
 .header-quadrant-4 {
+    font-size: 18px;
     color:#E5E7EB;
     background-color: rgba(169, 169, 169, 0.568);
     height: 240px;
-    width: 530px;
+    width: 520px;
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-right: 187.5px;
+    
     
 
 }
@@ -105,8 +107,8 @@ button {
     background-color: #3882F6;
     border: none;
     border-radius: 7.5px;
-    padding: 10px 35px;
-    margin-top: 10px;
+    padding: 8px 35px;
+    margin-top: 12px;
     font-size: 18px;
     
 }
@@ -146,10 +148,11 @@ button {
 
 .illustration-one, .illustration-two, .illustration-three, .illustration-four {
 
-    height: 175px;
-    width: 175px;
+    height: 160px;
+    width: 160px;
     border: 5px solid #3882F6;
-    border-radius: 15px;  
+    border-radius: 15px; 
+     
 }
 
 .illustrations-and-subtexts {
