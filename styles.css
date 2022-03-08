@@ -9,12 +9,20 @@
 
 body {
     margin: 0px;
+    font-family: "Roboto", sans-serif;
+    
 }
 
 .header-links {
-    font-size: 18px;
+    font-size: 16px;
     color: #E5E7EB;
-   
+    margin-right: 7.5px;
+    
+}
+
+.header-links, li {
+    padding-right: 10px;
+    padding-left: 10px;
     
 }
 
@@ -22,17 +30,21 @@ body {
     font-size: 24px;
     color: #F9FAF8;
     margin-top: 15px;
+    margin-left: 25px;
 }
 
 .top-header-elements {
-  
+    display: flex;
+    justify-content: space-around;
+    
 }
+
 
 .bottom-header-elements {
     display: flex;
-    justify-content: center;
-    gap: 85px;
-   
+    justify-content: space-around;
+    
+    
    
 }
 
@@ -40,7 +52,8 @@ body {
     display: flex;
     flex-direction: column;
     width: 450px;
-    row-gap: 0px;
+    margin-left: 185px;
+    
 }
 
 
@@ -49,9 +62,6 @@ body {
     color: #F9FAF8;
     font-size: 48px;
     font-weight: 800;
-    width: 400px;
-   
-    
  
 }
 
@@ -71,10 +81,12 @@ body {
     color:#E5E7EB;
     background-color: rgba(169, 169, 169, 0.568);
     height: 240px;
-    width: 525px;
+    width: 530px;
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-right: 187.5px;
+    
 
 }
 
@@ -88,18 +100,12 @@ li {
     
 }
 
-
-.top-header-elements {
-    display: flex;
-    justify-content: space-around;
-}
-
 button {
     color: white;
     background-color: #3882F6;
     border: none;
     border-radius: 7.5px;
-    padding: 10px 40px;
+    padding: 10px 35px;
     margin-top: 10px;
     font-size: 18px;
     
@@ -110,8 +116,8 @@ button {
     flex-direction: column;
     justify-content: center; 
     align-items: center;
-    
     height: 475px;
+    gap: 60px;
 
 }
 
@@ -127,34 +133,30 @@ button {
     display: flex;
     gap: 45px;
    
-
 }
 
 .random-information-section .illustrations-subtext {
     display: flex;
     justify-content: end;
-   
-    width: 767.5px;
+    gap: 19px;
+    width: 800px;
 
 
 }
 
 .illustration-one, .illustration-two, .illustration-three, .illustration-four {
 
-    height: 150px;
-    width: 150px;
+    height: 175px;
+    width: 175px;
     border: 5px solid #3882F6;
     border-radius: 15px;  
 }
 
-
-
-.illustration-one, .subtext-one {
+.illustrations-and-subtexts {
     display: flex;
     flex-direction: column;
+    gap: 5px;
 }
-
-
 
 .quote-section {
     background-color: #E5E7EB;
