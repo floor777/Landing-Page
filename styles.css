@@ -167,24 +167,31 @@ button {
 
 .quote-section {
     background-color: #E5E7EB;
-    height: 400px;
-    
+    height: 450px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    
 }
 
 .quote {
     font-size: 36px;
     font-style: italic;
     color: #1F2937;
-    width: 775px;
+    width: 800px;
 }
 
 .quoter {
     font-size: 20px;
+    font-weight: 800;
+    align-self: end;
+    margin-right: 27.5px;
     
-   
+}
+
+.quote-and-quoter {
+    display: flex;
+    flex-direction: column;
 }
 
