@@ -242,8 +242,17 @@ li {
     border-color: white;
     color: white;
     background-color: #3882F6;
-    
-   
+}
+
+.footer {
+    background-color: #1F2937;
+    height: 100px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    letter-spacing: 0.75px;
+
 }
 
 
