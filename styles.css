@@ -102,7 +102,7 @@ li {
     
 }
 
-button {
+#btn1 {
     color: white;
     background-color: #3882F6;
     border: none;
@@ -194,4 +194,56 @@ button {
     display: flex;
     flex-direction: column;
 }
+
+.call-to-action-section {
+    height: 350px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    
+ 
+}
+
+.call-to-action-box {
+    background-color: #3882F6;
+    width: 1050px;
+    height: 150px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 7.5px;
+    
+}
+
+.cta-left-side {
+    display: flex;
+    flex-direction: column;
+    color: white;
+    
+}
+
+.cta-left-side-top {
+    font-size: 25px;
+    font-weight: 700;
+}
+
+.cta-left-side-bottom {
+    font-size: 18px;
+  
+}
+
+#btn2 {
+    border: solid 2.5px;
+    font-size: 20px;
+    border-radius: 7.5px;
+    width: 140px;
+    height: 37.5px;
+    border-color: white;
+    color: white;
+    background-color: #3882F6;
+    
+   
+}
+
 
