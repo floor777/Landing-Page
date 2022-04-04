@@ -110,6 +110,7 @@ li {
     padding: 8px 35px;
     margin-top: 12px;
     font-size: 18px;
+    font-weight: 900;
     
 }
 
@@ -118,34 +119,34 @@ li {
     flex-direction: column;
     justify-content: center; 
     align-items: center;
-    height: 485px;
-    gap: 60px;
-    
-    
-    
+    height: 560px;
+    gap: 50px;   
+    margin-top: -65px;
 
 }
 
 .random-information-section .title {
     font-size: 36px;
     font-weight: 800;
-    color: #1F2937; 
-    
+    color: #1F2937;
+   
 
 }
 
 .random-information-section .illustrations {
     display: flex;
-    gap: 45px;
+    gap: 47.5px;
+    
    
 }
 
 .random-information-section .illustrations-subtext {
     display: flex;
     justify-content: end;
-    gap: 19px;
-    width: 800px;
-  
+    text-align: center;
+    gap: 55px;
+    width: 815px;
+    font-size: 18px;
 
 
 }
@@ -163,6 +164,9 @@ li {
     display: flex;
     flex-direction: column;
     gap: 5px;
+    
+    
+    
 }
 
 .quote-section {
@@ -207,7 +211,7 @@ li {
 
 .call-to-action-box {
     background-color: #3882F6;
-    width: 1050px;
+    width: 1025px;
     height: 150px;
     display: flex;
     justify-content: space-around;
@@ -220,11 +224,12 @@ li {
     display: flex;
     flex-direction: column;
     color: white;
+    margin-left: 42px;
     
 }
 
 .cta-left-side-top {
-    font-size: 25px;
+    font-size: 24px;
     font-weight: 700;
 }
 
@@ -237,11 +242,12 @@ li {
     border: solid 2.5px;
     font-size: 20px;
     border-radius: 7.5px;
-    width: 140px;
-    height: 37.5px;
+    width: 130px;
+    height: 38px;
     border-color: white;
     color: white;
     background-color: #3882F6;
+    margin-right: 40px;
 }
 
 .footer {
@@ -251,7 +257,7 @@ li {
     display: flex;
     justify-content: center;
     align-items: center;
-    letter-spacing: 0.75px;
+    letter-spacing: 1.5px;
 
 }
 
